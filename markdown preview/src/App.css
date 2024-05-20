@@ -1,0 +1,24 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+#editor,
+#preview {
+    flex: 1;
+    padding: 10px;
+    overflow-y: scroll;
+    color: white;
+}
+
+#editor {
+    height: 300px;
+    width: 400px;
+    /* background-color: blue; */
+    color: white;
+}
+
+#preview {
+    background-color: blue;
+}
