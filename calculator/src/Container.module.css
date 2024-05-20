@@ -1,0 +1,34 @@
+/* You can customize these styles according to your needs */
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Bcontainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.B {
+    padding: 20px;
+    font-size: 1.5em;
+    border: none;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.B:hover {
+    background-color: #ddd;
+}
+
+.Input {
+    width: 100%;
+    font-size: 2em;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: right;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
